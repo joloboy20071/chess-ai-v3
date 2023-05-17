@@ -26,7 +26,7 @@ o = 0
 opp = []
 now = []
 
-stockfish = Stockfish(path=r"C:\Users\jolob\Desktop\progameren\python\Projects\chess ai\v2\stockfish_15.1_win_x64_avx2\stockfish-windows-2022-x86-64-avx2.exe",
+stockfish = Stockfish(path=r"Path to stockfish exe",
                       depth=22, parameters={"Threads": 4, "Minimum Thinking Time": 30, 'Hash':1024, "UCI_Chess960": "true"})
 
 #this is the chess board
